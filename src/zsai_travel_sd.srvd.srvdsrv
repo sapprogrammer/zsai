@@ -1,0 +1,8 @@
+@EndUserText.label: 'SD for travel'
+define service ZSAI_TRAVEL_SD {
+  expose zsai_c_travel;
+  expose zsai_i_agency;
+  expose zsai_i_customer;
+  expose I_Currency;
+  expose I_Country;
+}
